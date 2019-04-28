@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+ */
+}
+body {
+  background-color:  #E9FFCC
+}
+a {
+  text-decoration: none;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  max-width: 30%;
+  min-height: 100px;
+  /*
+  - Recuerda, margin: auto; en izquierda y derecha centrara el elemento
+  - Tal vez agregar un "max-width" ayude para que sea responsivo
+  - Puede que quieras agregar algo de padding
+  */
+}
+.form-wrap {
+  background-color: white;
+  margin-bottom: 10%;
+  max-width: 80%;
+  padding-top: 10px;
+}
+.form-wrap h1,
+.form-wrap p {
+}
+.form-wrap .form-group {
+  text-align: left;
+  color: gray;
+  font-weight: bold;
+  text-color;
+  /*
+    Cada label, input esta dentro de un .form-group
+  */
+}
+.form-wrap .form-group label {
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  /*
+    Label debería cambiar a un elemento en bloque (d****y)(block)
+  */
+}
+.form-wrap .form-group input {
+  box-sizing: border-box;
+  position: relative;
+  width: 90%;
+  padding-top: 15px;
+  margin-top:10px;
+  margin-left: 10px;
+  padding-right:3px;
+  border: lightgray solid 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /*
+    Inputs deberían tener el ancho del 100% a traves del .form-wrap y algo de padding
+  */
+}
+.form-wrap button {
+  padding-top:10px;
+  padding-bottom: 10px;
+  background-color: #49c1;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /*
+    Button debería hacer lo mismo que los input 100% y mostrarse en bloque(block)
+    Background color para el button es #49c1a2
+  */
+}
+.form-wrap button:hover {
+  color: white;
+  background-color: #37a08e;
+}
+.form-wrap .bottom-text {
+  text
+}
+footer {
+  text-align: center;
+  color: white;
+}
+footer a {
+  color: #49c1a2;
+}
